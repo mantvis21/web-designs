@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    /* outline: 2px solid #000; */
+}
+
+.hero {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 48vw; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav_elements a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: #717784;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a.button {
+    background-color: #9B9BCA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.big_text {
+    padding-top: 200px;
+    width: 50%;
+}
+
+.small_text {
+    width: 70%;
+}
+
+h1 {
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    color: #696A86;
+    line-height: 100%;
+    margin: 30px 0;
+}
+
+.small_text p {
+    color: #696A86;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+
+.footer {
+    padding-bottom: 120px;
+}
+
+a.button:hover {
+    color: #9B9BCA;
+    background: #fff;
+}
+
+/* SECOND SECTION STARTS */
+
+.second {
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    /* height: 30vw; */
+}
+
+h2 {
+    text-align: center;
+    color: #626780;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.heading_2_p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: #626780;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.tile {
+    width: calc(25% - 26px);
+    text-align: center;
+}
+
+.tile img {
+    margin: 0 auto;
+    display: block;
+}
+
+.tile_info {
+    color: #626780;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+h3 {
+    color: #626780;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}

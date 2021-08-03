@@ -1,0 +1,124 @@
+@media (max-width: 1280px) {
+
+    .hidden {
+        display: inline;
+    }
+
+    .active {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+    
+    .tile {
+        width: calc(50% - 26px);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        background: linear-gradient(180deg, #FFFFFF 48.96%, #E5E5E5 100%);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    nav {
+        padding: 15px 0;
+    }
+
+    .big_text {
+        padding-top: 45px;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    h1 {
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-weight: 400;
+        color: #696A86;
+        line-height: 100%;
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .small_text {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .small_text p {
+        color: #696A86;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27px;
+        padding-bottom: 30px;
+    }
+
+    .footer {
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    a.button {
+        background-color: #9B9BCA;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 60px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .second {
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: #626780;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 150%;
+        margin-bottom: 30px;
+    }
+
+    .heading_2_p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: #626780;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 70px;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 150px;
+    }
+
+    .tile {
+        width: calc(100% - 120px);
+        text-align: center;
+    }
+}
