@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.hero {
+    background-image: url("Eifel.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+header {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.nav-hidden {
+    display: none;
+}
+
+.brand_name {
+    margin-right: 15px;
+    display: inline;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.login_button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.login_button:hover {
+    background-color: #fff;
+    color: #1d2331;
+}
+
+.big_text {
+    color: #fff;
+    text-align: center;
+    margin: 26vh 0;
+}
+
+.big_text h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.big_text h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* HOTELS SECTION STARTS */
+
+.container_2 {
+    background: #fff;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.section_name {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    display: inline;
+    color: #484848;
+}
+
+#hotels {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.red {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #FF4B64;
+}
+
+.normal {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #484848;
+    margin-left: 30px;
+}
+
+.hotel_rooms {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0 40px;
+    justify-content: space-between;
+}
+
+.tile {
+    border: #707070 1px solid;
+    width: 32%;
+    margin-bottom: 25px;
+}
+
+.tile_img {
+    width: 100%;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #484848;
+    padding: 0 10px;
+}
+
+.tile_info {
+    display: flex;
+}
+.tile_info_left,
+.tile_info_right {
+    font-size: 1rem;
+    color: #9A9A9A;
+    padding: 10px 10px 0;
+    display: inline-block;
+}
+
+.tile_info_right {
+    margin-left: auto;
+}
+
+.price_btn {
+    background: transparent;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FF4B64;
+    border: #FF4B64 1px solid;
+    margin: 25px 15px;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.section_footer {
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_footer  a {
+    text-decoration: none;
+    color: #484848;
+}
+
+/* SECTION ATTRACTION */
+
+.container_3 {
+    background: #fff;
+    margin: 100px auto 50px;
+    width: 70%;
+}
+
+#attractions {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+.attraction_tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.top_left {
+    width: calc(33.33% - 30px);
+    height: 525px;
+}
+
+.top_right {
+    width: 66.66%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    height: 260px;
+}
+
+.attractions_tile_1 {
+    background-image: url("attractions_tile_1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+}
+
+.attractions_tile_2 {
+    background-image: url("attractions_tile_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(50% - 15px);
+    display: flex;
+}
+
+.attractions_tile_3 {
+    background-image: url("attractions_tile_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(50% - 15px);
+    margin-top: 30px;
+    display: flex;
+}
+
+.attractions_tile_4 {
+    background-image: url("attractions_tile_4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(32.63% - 20px);
+    display: flex;
+}
+
+.attractions_tile_5 {
+    background-image: url("attractions_tile_5.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(33.33% - 20px);
+    display: flex;
+}
+
+.attractions_tile_6 {
+    background-image: url("attractions_tile_6.jpg");
+    background-size: cover;
+    background-position: center;
+    width: calc(33.33% - 20px);
+    display: flex;
+}
+
+.attractions-text {
+    margin:auto;
+}
+
+/* SECTION TRIPS */
+
+.container_4 {
+    margin: 60px auto 60px;
+    width: 70%;
+}
+
+#trips {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+.trips_middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.trips_tile {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.trips_tile_right {
+    border: 1px solid #E6E6E6;
+    border-left: 0;
+    padding-left: 20px;
+}
+
+.trips_tile_right h3 {
+    padding: 0;
+}
+
+/* FOOTER SECTION */
+
+.container_5 {
+    margin: 60px auto 200px;
+    width: 70%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: calc(25% - 150px);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_section a {
+    text-decoration: none;
+    color: #484848;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer_section a.red {
+    color: #FF4B64;
+}
+
+.footer_section h2 {
+    color: #484848;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
