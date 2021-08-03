@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &__tile {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__left {
+        margin-right: 20px;
+    }
+
+    &__big-text {
+        font-family: Space Grotesk;
+        font-weight: 700;
+        font-size: rem(24px);
+        line-height: rem(32px);
+        color: #333333;
+    }
+    &__small-text {
+        font-family: Space Grotesk;
+        font-weight: 400;
+        font-size: rem(16px);
+        line-height: rem(32px);
+        color: rgba(51, 51, 51, 0.5);
+    }
+}
